@@ -7,4 +7,4 @@ My Blog with more projects http://ElectronHacks.com
 Youtube MQTT Playlist https://www.youtube.com/playlist?list=PLkIA6OiRuCWa-H9IqUinyZlpg3te4qTuU
 
 Unfortunately this code only works with arduino IDE version 1.6.5 and older, after this there was a bug in the ide that they don't plan to fix. A version of this code for the latest IDE is needed where the function prototype is created before it's referred to in the client object instantiation. Information here: http://forum.arduino.cc/index.php?topic=370284.0 
-I will eventually make a version for the latest IDE when I have time.
+I will eventually make a version for the latest IDE when I have time. If you would like to do this yourself I suggest getting the latest IDE and look at the PubSub example and see how they instanciate PubSub differently to make it work.
